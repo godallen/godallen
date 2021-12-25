@@ -15,7 +15,7 @@ from gm.api import *
 
 def init(context):
     # 策略标的为SHFE.rb1901
-    context.symbol = 'SHFE.rb1901'
+    context.symbol = 'SHFE.rb2201'
 
     # 订阅SHFE.rb1901, bar频率为1min
     subscribe(symbols=context.symbol, frequency='60s')
@@ -141,8 +141,8 @@ if __name__ == '__main__':
         filename='main.py',
         mode=MODE_BACKTEST,
         token='bacc3f30ab3ef2ce0f3a5037fcbef01f2190b1c0',
-        backtest_start_time='2018-07-01 08:00:00',
-        backtest_end_time='2018-10-01 16:00:00',
+        backtest_start_time='2021-07-01 08:00:00',
+        backtest_end_time='2021-11-01 16:00:00',
         backtest_adjust=ADJUST_PREV,
         backtest_initial_cash=100000,
         backtest_commission_ratio=0.0001,

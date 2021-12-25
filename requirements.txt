@@ -4,6 +4,9 @@
 ​ matplotlib>= 3.3.2
 qtawesome  需要单独安装 pip
 
+<<<<<<< HEAD
 作者：Allen
+=======
+>>>>>>> 4a4b6fb1a13f47a80998eea1eb5557e4862c6aaa
 作者联系邮箱：godxd@qq.com
  

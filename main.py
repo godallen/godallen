@@ -1259,7 +1259,7 @@ def nearestdate(date, counter = 1):
     
 
 
-if __name__ == '__main__' or True:
+if __name__ == '__main__':
     csvFile = open("data.csv", "r")
     reader = csv.reader(csvFile)
 

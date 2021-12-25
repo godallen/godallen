@@ -2,3 +2,4 @@
 ​ pyqt >=5.9.2
 ​ numpy>=1.19.2
 ​ matplotlib>= 3.3.2
+qtawesome  需要单独安装 pip
